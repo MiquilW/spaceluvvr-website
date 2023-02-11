@@ -1,0 +1,41 @@
+body {
+  background: radial-gradient(black, rgb(45, 30, 65));
+  height: 100vh;
+  margin: 0px;
+  display: grid;
+  place-items: center;
+  font-family: sans-serif;
+}
+
+/* Main Menu */
+h1 {
+  color: rgb(219, 216, 0);
+  translate: 0px 145px;
+  -webkit-text-stroke: black 2px;
+}
+
+.buttons {
+  translate: 0px -175px;
+  display: grid;
+  justify-content: center;
+}
+
+button {
+  transition: color 0.3s ease-in-out;
+  display: none;
+  border: none;
+  color: white;
+  display: list-item;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+  background: none;
+  scale: 125%;
+}
+
+button:hover {
+  color: #67acff;
+}
