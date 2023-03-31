@@ -1,10 +1,12 @@
 body {
-  background: radial-gradient(black, rgb(45, 30, 65));
+  background: radial-gradient(closest-side at 50% 50%, black, rgb(45, 30, 65));
   height: 100vh;
   margin: 0px;
   display: grid;
   place-items: center;
   font-family: sans-serif;
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
 }
 
 /* Main Menu */
@@ -16,6 +18,11 @@ h1 {
 
 .buttons {
   translate: 0px -175px;
+  display: grid;
+  justify-content: center;
+}
+
+form {
   display: grid;
   justify-content: center;
 }
@@ -38,4 +45,17 @@ button {
 
 button:hover {
   color: #67acff;
+}
+
+@keyframes gradient {
+	0% {
+		background-size: 100% 100%;
+	}
+	50% {
+		background-size: 200% 200%;
+    background-position: 50% 50%;
+	}
+	100% {
+		background-size: 100% 100%;
+	}
 }
