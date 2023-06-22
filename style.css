@@ -12,19 +12,16 @@ body {
 /* Main Menu */
 h1 {
   color: rgb(219, 216, 0);
-  translate: 0px 145px;
+  translate: 6px;
   -webkit-text-stroke: black 2px;
 }
 
 .buttons {
-  translate: 0px -175px;
   display: grid;
-  justify-content: center;
 }
 
 form {
   display: grid;
-  justify-content: center;
 }
 
 button {
