@@ -6,21 +6,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spaceluvvr</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="index.js"></script>
 </head>
-<body>
+<body onload="change()">
   <div class="buttons">
-    <h1>Main Menu</h1>
-    <form action="http://www.instagram.com/spaceluvvr/" method="get" target="_blank">
-      <button type="submit">@spaceluvvr</button>
-    </form>
-    <form action="https://soundcloud.com/spaceluvvr" method="get" target="_blank">
-      <button type="submit">SOUNDCLOUD</button>
-    </form>
-    <button>BEATSTORE</button>
-    <button>CONTACT</button>
-    <!-- <button>ARCHIVES</button> -->
+    <div>
+      <div class="container">
+        <img src="logo.png" alt="Spaceluvvr" data-aos="fade-in" />
+      </div>
+      <div class="main">
+        <h1 data-aos="fade-in">Main Menu</h1>
+      </div>
+      <form action="http://www.instagram.com/spaceluvvr/" method="get" target="_blank">
+        <button type="submit" data-aos="fade-up">@spaceluvvr</button>
+      </form>
+      <form action="https://soundcloud.com/spaceluvvr" method="get" target="_blank">
+        <button type="submit" data-aos="fade-up">SOUNDCLOUD</button>
+      </form>
+      <form>
+        <button data-aos="fade-up">BEATSTORE</button>
+      </form>
+      <form>
+        <button data-aos="fade-up">CONTACT</button>
+      </form>
+      <!-- <button>ARCHIVES</button> -->
+    </div>
+  </div>
+  <div class="stars" id="stars" data-aos="fade-down">
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
+    <h5>*</h5>
   </div>
   
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init(
+        {
+            mirror: true,
+            anchorPlacement: 'top-bottom',
+            offset: 0,
+            duration: 800
+        });</script>
 </body>
 </html>
 
