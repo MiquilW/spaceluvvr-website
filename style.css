@@ -47,6 +47,14 @@ h5 {
   translate: 0px -40px;
 }
 
+.back {
+  color: #ff5c46;
+}
+
+.back:hover {
+  color: #a73d2f;
+}
+
 form {
   display: grid;
 }
