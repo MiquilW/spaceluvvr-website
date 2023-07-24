@@ -6,7 +6,6 @@ body {
   place-items: center;
   font-family: sans-serif;
   animation: gradient 15s ease infinite;
-  background-size: 400% 400%;
   overflow: hidden;
 }
 
@@ -110,5 +109,9 @@ button:hover {
 
   .back {
     translate: -25%;
+  }
+
+  body {
+    overflow-y: visible;
   }
 }
