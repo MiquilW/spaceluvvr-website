@@ -1,6 +1,6 @@
 body {
   background: radial-gradient(closest-side at 50% 50%, black, rgb(45, 30, 65));
-  height: 100vh;
+  min-height: 100vh;
   margin: 0px;
   display: grid;
   place-items: center;
@@ -109,9 +109,5 @@ button:hover {
 
   .back {
     translate: -25%;
-  }
-
-  body {
-    overflow-y: visible;
   }
 }
