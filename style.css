@@ -1,3 +1,8 @@
+html {
+  background: radial-gradient(closest-side at 50% 50%, black, rgb(45, 30, 65));
+  animation: gradient 15s ease infinite;
+}
+
 body {
   background: radial-gradient(closest-side at 50% 50%, black, rgb(45, 30, 65));
   min-height: 100vh;
