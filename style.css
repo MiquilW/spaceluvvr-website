@@ -32,15 +32,6 @@ h1 {
   -webkit-text-stroke: black 2px;
 }
 
-.stars {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  position: absolute;
-  white-space: nowrap;
-  animation: stars 100s ease infinite;
-}
-
 h5 {
   padding: 0;
   color: red;
@@ -97,15 +88,6 @@ button:hover {
 	}
 	100% {
 		background-size: 100% 100%;
-	}
-}
-
-@keyframes stars {
-	0% {
-		rotate: 0deg;
-	}
-	100% {
-		rotate: 360deg;
 	}
 }
 
